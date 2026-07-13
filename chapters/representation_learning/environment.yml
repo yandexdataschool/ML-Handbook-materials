@@ -1,0 +1,13 @@
+name: ml-handbook-vae
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch>=2.0
+      - torchvision>=0.15
+      - numpy>=1.24
+      - matplotlib>=3.8
+      - jupyter
+      - jupytext>=1.16
