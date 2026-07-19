@@ -1,0 +1,12 @@
+name: ml-handbook-transformer
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch>=2.0
+      - numpy>=2.0
+      - matplotlib>=3.8
+      - jupyter
+      - jupytext>=1.16
